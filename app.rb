@@ -8,7 +8,7 @@ def init_db
 	@db.results_as_hash = true 
 end
 
-# before вызывается каждый раз при перезагрузке
+# before вызывается каждый раз и только при перезагрузке
 # любой страницы
 
 before do
