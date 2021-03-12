@@ -31,7 +31,7 @@ configure do
 		content TEXT
 	)'
 
-	# создает таблицу если таблица не существует
+	# создает таблицу если таблица не еще существует
 	@db.execute 'create table if not exists Comments
 	(
 		id INTEGER PRIMARY KEY AUTOINCREMENT,
